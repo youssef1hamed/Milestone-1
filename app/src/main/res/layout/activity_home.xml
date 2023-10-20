@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/talabat"
+
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="100dp"/>
+
+        <Button
+            android:layout_width="400dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="360dp"
+            android:text="View Map"
+            android:id="@+id/map_button"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            app:cornerRadius="30dp" />
+
+        <Button
+            android:layout_width="400dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="20dp"
+            android:text="Edit profile information"
+            android:id="@+id/profile_button"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            app:cornerRadius="30dp" />
+
+        <Button
+            android:layout_width="400dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="20dp"
+            android:text="Order now"
+            android:id="@+id/order_button"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            app:cornerRadius="30dp" />
+
+    </LinearLayout>
+
+
+
+</ScrollView>
